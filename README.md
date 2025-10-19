@@ -6,7 +6,7 @@ A full-stack machine learning application for predicting stock prices using LSTM
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   React Frontend │    │ Spring Boot API │    │  Flask ML Service│
+│  React Frontend │    │ Spring Boot API │    │ Flask ML Service│
 │   (Port 5173)   │◄──►│   (Port 8081)   │◄──►│   (Port 5000)   │
 │                 │    │                 │    │                 │
 │ • Stock Input   │    │ • REST API      │    │ • LSTM Models   │
